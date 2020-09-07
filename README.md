@@ -3,15 +3,16 @@
 Both Genrator and discriminator use leaky Relu.
 However,generator's final layer use tanh,and discriminator's is sigmoid.
 ```
-## environment
-* Jupyter Notebook
-* Python 3.6
-* Tensorflow 1.9-GPU
 ## Archeitecture
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/DCGAN.png)
 ```
 Note:此架構之shape為示意圖，與本project不同
 ```
+### Environment
+* Jupyter Notebook
+* Python 3.6
+* Tensorflow 1.9-GPU
+
 ## DCGAN's advantages compare to GAN
 * In GAN model, both generator and discriminator use Fully Connected Layer, but DCGAN use Convolution Neural Network.
 * Both Genrator and Discriminator use Batch Normalization for speeding up calculation. ```(Note:Discrimator's first layer not use.)```
