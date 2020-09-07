@@ -3,7 +3,11 @@
 Both Genrator and discriminator use leaky Relu.
 However,generator's final layer use tanh,and discriminator's is sigmoid.
 ```
-## Archeitecture & Environment
+### Environment
+* Jupyter Notebook
+* Python 3.6
+* Tensorflow 1.9-GPU
+## Archeitecture
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/DCGAN.png)
 ```
 Note:此架構之shape為示意圖，與本project不同
