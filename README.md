@@ -1,16 +1,14 @@
-# DCGAN架構生成cifar10中鹿的圖像
-與GAN不同之處在於，Generator、Discriminator的架構從原本的fully connected layer改為捲積連結層(CNN)
-## Archeitecture
+# Using DCGAN generator deer picture in cifar10
+Both Genrator use leaky Relu, generator's final layer use tanh,and discriminator's is sigmoid.## Archeitecture
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/DCGAN.png)
 ```
 Note:此架構之shape為示意圖，與本project不同
 ```
-## Difference between GAN and DCGAN
-* GAN中的Generator、Discriminator使用的是fully connected layer，而DCGAN是在GAN原本的架構下將網路結構改為CNN
-* Genrator、Discriminator 中每層皆使用 Batch Normalization 加快運算速度(其中Discrimator的第一層不必使用)
-* Genrator、Discriminator 皆不使用 pooling 層 而是使用轉置卷積層（transposed convolutional layer）進行取樣
-* Genrator 的每層皆用leaky Relu，最後一層使用tanh
-* Discriminator的每層皆用leaky Relu，最後一層使用sigmoid
+## Difference between DCGAN and GAN
+* In GAN model, both generator and discriminator use Fully Connected Layer, but DCGAN using Convolution Neural Network.
+* IN DCGAN, both Genrator and Discriminator use Batch Normalization for speeding up calculation.(Note:Discrimator's first layer not use.)
+* IN DCGAN, both Genrator and Discriminator not use pooling layer,but using transposed convolution layer.
+* Both Genrator use leaky Relu, generator's final layer use tanh,and discriminator's is sigmoid.
 ## Result
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/deer.png)
 ## 加載說明
