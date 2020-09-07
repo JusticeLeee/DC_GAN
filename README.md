@@ -10,7 +10,7 @@ However,generator's final layer use tanh,and discriminator's is sigmoid.
 ## Archeitecture
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/DCGAN.png)
 ```
-Note:此架構之shape為示意圖，與本project不同
+Note:此架構之shape-size僅為示意圖，與本project不同
 ```
 
 ## DCGAN's advantages compare to GAN
