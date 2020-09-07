@@ -1,4 +1,4 @@
-# Using DCGAN generate deer picture in cifar10
+# Using DCGAN model generate deer picture in cifar10
 ```
 Both Genrator and discriminator use leaky Relu.
 However,generator's final layer use tanh,and discriminator's is sigmoid.
