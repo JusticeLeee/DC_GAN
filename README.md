@@ -1,5 +1,6 @@
 # Using DCGAN generate deer picture in cifar10
-Both Genrator use leaky Relu, generator's final layer use tanh,and discriminator's is sigmoid.## Archeitecture
+Both Genrator use leaky Relu, generator's final layer use tanh,and discriminator's is sigmoid.
+## Archeitecture
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/DCGAN.png)
 ```
 Note:此架構之shape為示意圖，與本project不同
