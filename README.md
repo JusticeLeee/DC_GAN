@@ -6,6 +6,6 @@
 ## Generator archietectue
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/DCGAN.png)
 note:此架構為示意圖，並非本project之架構
-## 
+## Result
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/deer.png)
 
