@@ -5,11 +5,10 @@ Both Genrator use leaky Relu, generator's final layer use tanh,and discriminator
 ```
 Note:此架構之shape為示意圖，與本project不同
 ```
-## Difference between DCGAN and GAN
+## DCGAN's benefit compare to GAN
 * In GAN model, both generator and discriminator use Fully Connected Layer, but DCGAN use Convolution Neural Network.
-* IN DCGAN, both Genrator and Discriminator use Batch Normalization for speeding up calculation. (Note:Discrimator's first layer not use.)
-* IN DCGAN, both Genrator and Discriminator not use pooling layer,but use transposed convolution layer.
-* Both Genrator use leaky Relu, generator's final layer use tanh,and discriminator's is sigmoid.
+* Both Genrator and Discriminator use Batch Normalization for speeding up calculation. (Note:Discrimator's first layer not use.)
+* Both Genrator and Discriminator not use pooling layer,but use transposed convolution layer.
 ## Result
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/deer.png)
 ## 加載說明
