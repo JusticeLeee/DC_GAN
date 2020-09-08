@@ -16,7 +16,7 @@ Note:此架構之shape-size僅為示意圖，與本project不同
 ## DCGAN's advantages compare to GAN
 * In GAN model, both generator and discriminator use Fully Connected Layer, but DCGAN use Convolution Neural Network archeitecture.
 * Both Genrator and Discriminator use Batch Normalization for speeding up calculation. ```(Note:Discrimator's first layer not use.)```
-* ```Both Genrator and Discriminator not use pooling layer,but use transposed convolution layer.```
+* Both Genrator and Discriminator not use pooling layer,but use transposed convolution layer.
 ## Result
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/deer.png)
 ## 加載說明
