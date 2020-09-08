@@ -18,6 +18,7 @@ Note:此架構之shape-size僅為示意圖，與本project不同
 * Both Genrator and Discriminator use Batch Normalization for speeding up calculation. ```(Note:Discrimator's first layer not use.)```
 * Both Genrator and Discriminator different from traditional CNN ,they don't use pooling layer.
 * Generator use tansposed convolution layer ,as known as deconvolution ,and Discrinator use convolution layer.
+Note:Generator's final layer use tanh,and discriminator's is sigmoid.
 ## Result
 ![error](https://github.com/JusticeLeee/DC_GAN/blob/master/deer.png)
 ## 加載說明
