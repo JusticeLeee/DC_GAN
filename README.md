@@ -1,7 +1,6 @@
 # Using DCGAN model generate deer picture in cifar10
 ```
-Both Genrator and discriminator use leaky Relu.
-However,generator's final layer use tanh,and discriminator's is sigmoid.
+A large amount of training data is passed to the fully connected layer through the convolutional neural network and then trained to produce the image of the deer. Compared with the traditional deep learning network, in addition to the fully connected layer, it can pass through the convolutional layer and the pooling layer. Obtain local features and reduce the image size to greatly increase the training speed.
 ```
 ### Environment
 * Jupyter Notebook
