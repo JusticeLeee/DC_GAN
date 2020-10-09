@@ -1,6 +1,8 @@
 # Using DCGAN model generate deer picture in cifar10
 ```
-A large amount of training data is passed to the fully connected layer through the convolutional neural network and then trained to produce the image of the deer. Compared with the traditional deep learning network, in addition to the fully connected layer, it can pass through the convolutional layer and the pooling layer. Obtain local features and reduce the image size to greatly increase the training speed.
+A large amount of training data is passed to the fully connected layer through the convolutional neural network, and the image of the deer is generated after training.
+Compared with the traditional deep learning network, in addition to the fully connected layer, CNN obtains local features through the convolutional layer and the pooling layer,
+and reduces the image size to greatly increase the training speed.
 ```
 ### Environment
 * Jupyter Notebook
