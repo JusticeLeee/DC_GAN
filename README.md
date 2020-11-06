@@ -27,5 +27,5 @@ Note:Generator's final layer use tanh,and discriminator's is sigmoid.
 ## 加載說明
 若透過網頁載入此ipynb文件失敗，可直接透過[此連結查閱](https://nbviewer.jupyter.org/github/JusticeLeee/DC_GAN/blob/master/DcGan_deer.ipynb)
 
-Ref:https://arxiv.org/abs/1511.06434
+Reference:https://arxiv.org/abs/1511.06434
 
